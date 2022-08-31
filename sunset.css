@@ -1,0 +1,259 @@
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ \\\\\\\\\\\\\\\\\\\\\\\\BODY\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+body {
+    background: rgb(255, 102, 51);
+    background: linear-gradient(180deg, rgba(255, 102, 51, 1) 0%, rgba(255, 102, 102, 1) 33%, rgba(255, 102, 153, 1) 72%, rgba(255, 102, 204, 1) 100%);
+    filter: blur(10%);
+    position: relative;
+    width: 100%;
+}
+
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\ HEADER \\\\\\\\\\\\\\\\ */
+
+header {
+    opacity: 85%;
+}
+
+
+/* //////////////////////////////////
+////////////NAV//////////////////*/
+
+nav {
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -1%;
+    overflow: hidden;
+}
+
+.nav-header {
+    color: #ffffff;
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    width: 100%;
+
+}
+
+.nav-links {
+    justify-content: center;
+    margin: 10%;
+    position: relative;
+    bottom: 40%;
+}
+
+.nav-a {
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.nav-a:hover,
+.nav-a:active {
+    color: #00FF00;
+
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\VECTORS\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.leaf-top1 {
+    position: fixed;
+    top: 3%;
+    left: -15%;
+    transform: rotate(90deg);
+    z-index: -1;
+    width: 60%;
+    background-blend-mode: lighten;
+}
+
+.leaf-top2 {
+    position: fixed;
+    top: -3%;
+    left: 50%;
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+    z-index: -1;
+    width: 60%;
+    background-blend-mode: lighten;
+}
+
+/* ////////////////////////////////////////////////
+\\\\\\\\\\\\\\\\MAIN\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+
+}
+
+/* /////////////////////////////
+//////////TOP-SECTION//////////////*/
+
+.top-section {
+    display: flex;
+}
+
+
+.about-me {
+    background-color: #2d854d;
+    display: flex;
+    opacity: 75%;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 3%;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+
+}
+
+.skills {
+    background-color: #2d854d;
+    display: flex;
+    opacity: 75%;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 3%;
+    width: 30%;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+}
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\WORK-SECTION\\\\\\\\\\\\\\*/
+
+.work-section {
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.work-heading {
+    color: white;
+    margin-bottom: -1%;
+}
+
+.work-div {
+    background-color: #2d854d;
+    opacity: 80%;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 2%;
+    padding: 1%;
+    overflow: hidden;
+}
+
+
+
+/* ////////////////////////////////////////
+///////////////EDUCATION-SECTION//////////////////////*/
+
+.education-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2d854d;
+    border-radius: 20px;
+    padding: 2%;
+    color: white;
+    width: 80%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    opacity: 80%;
+}
+
+.education-heading {
+    color: white;
+}
+
+
+/* //////////////////////////////////////////////////
+\\\\\\\\\\\\\\\FONTS\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+h2,
+h3,
+h4 {
+    font-family: 'Bad Script', cursive;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\//////////////
+//////////////QUIERIES\\\\\\\\\\\\\\\\\\\\*/
+
+@media only screen and (max-width:600px) {
+
+
+    nav {
+        width: 100%;
+
+    }
+
+    .nav-list {
+        flex-direction: column;
+        margin-left: 7rem;
+    }
+
+    .nav-header {
+        margin-left: 2rem;
+    }
+
+    .nav-links {
+        margin-bottom: .5rem;
+        position: relative;
+        top: 10%;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        margin: 2em;
+        width: 80%;
+        padding: .5em;
+
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        margin: 2em;
+        width: 80%;
+        padding: .5em;
+
+    }
+
+    .work-div {
+        display: flex;
+        flex-direction: column;
+        margin: 2em;
+        width: 80%;
+        padding: .5em;
+
+    }
+
+}
