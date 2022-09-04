@@ -32,6 +32,8 @@ header {
 }
 
 .about-me {
+    position: relative;
+    top: 10px;
     opacity: 100%;
 }
 
