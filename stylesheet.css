@@ -65,7 +65,10 @@ main {
     border-radius: 15px;
 }
 
-
+body {
+    background-color: #1B233E;
+    color: #B0BABD;
+}
 
 .name {
     color: #22A6B3;
