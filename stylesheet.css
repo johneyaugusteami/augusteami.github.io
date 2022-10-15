@@ -5,6 +5,11 @@
 
 
 /*LAYOUT*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .front__name {
     font-size: xx-large;
     margin-right: 1%;
@@ -60,10 +65,7 @@ main {
     border-radius: 15px;
 }
 
-body {
-    background-color: #1B233E;
-    color: #B0BABD;
-}
+
 
 .name {
     color: #22A6B3;
