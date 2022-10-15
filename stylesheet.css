@@ -83,7 +83,7 @@ body {
 
 /*  MEDIA QUERY */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 769px) {
 
     .front__name {
         font-size: large;
@@ -111,6 +111,7 @@ body {
     .nav_ul_li--a {
         font-size: small;
         text-decoration: none;
+        margin: auto;
 
     }
 }
