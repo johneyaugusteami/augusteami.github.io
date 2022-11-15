@@ -258,3 +258,10 @@ body {
     margin-top: 20px;
     transition: 0.5s;
 }
+
+
+/* WORK HISTORY LINK ~ LAST MINUTE EDIT */
+.work-history {
+    color: white;
+    text-decoration: none;
+}
